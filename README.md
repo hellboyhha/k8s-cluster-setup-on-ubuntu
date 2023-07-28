@@ -21,7 +21,7 @@
 
 - You can join more than one worker node.
 
-- Sample Output
+- Sample Script Output
   ```bash
   Please choose your ubuntu version (20-04 or 22-04):
   ....
