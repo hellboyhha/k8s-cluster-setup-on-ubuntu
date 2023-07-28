@@ -7,7 +7,7 @@
   chmod u+x *.sh
   ```
 
-- Run ***k8s_cluster_setup.sh*** in your k8s master node.
+- Run **k8s_cluster_setup.sh** in your k8s master node.
   ```bash
   ./k8s_cluster_setup.sh
   ```
@@ -16,5 +16,18 @@
 
 - Afterward, provide the username and IP address of your worker node, and the script will automatically handle all the necessary installations and steps to join the worker node to the k8s cluster.
 
-- You can join more than one worker node..
+- You can join more than one worker node.
 
+- Sample Output
+  ```bash
+  Please choose your ubuntu version (20-04 or 22-04):
+  ....
+  ....
+  Please enter your workernode username:
+  Please enter your workernode ip:
+  ....
+  ....
+  Do you want to join another worker node (Y/y/N/n):
+  ....
+  ....
+  ````
