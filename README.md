@@ -1,5 +1,8 @@
 # k8s Cluster Setup on Ubuntu for Home Lab
 
+- k8s Cluster Diagram
+- ![k8s_cluster_diagram](k8s_cluster_diagram.png)
+
 - Clone or download this repository to your k8s master node.
 
 - Grant the user execute permission to all scripts within the downloaded repository directory.
