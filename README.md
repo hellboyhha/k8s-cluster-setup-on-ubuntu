@@ -15,13 +15,7 @@
   ./k8s_cluster_setup.sh
   ```
 
-- Provide your Ubuntu version (20.04 or 22.04) then the script will install and configure all the necessary components for the control plane on your master node.
-
-- Afterward, provide the username and IP address of your worker node, and the script will handle all the necessary installations and steps to join the worker node to the k8s cluster.
-
-- You can join more than one worker node.
-
-- Sample Script Output
+- Sample Script Run Output
   ```bash
   Please choose your ubuntu version (20-04 or 22-04):
   ....
@@ -37,3 +31,9 @@
   ....
   ....
   ````
+  
+- Provide your Ubuntu version (20.04 or 22.04) then the script will install and configure all the necessary components for the control plane on your master node.
+
+- Afterward, provide the username and IP address of your worker node, and the script will handle all the necessary installations and steps to join the worker node to the k8s cluster.
+
+- You can join more than one worker node.
