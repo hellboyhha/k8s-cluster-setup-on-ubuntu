@@ -4,7 +4,7 @@ k8s_version='1.27.0'
 function cluster_initialization(){
 
         # Initialization the Kubernetes cluster on the control plane node using kubeadm
-        sudo kubeadm init --pod-network-cidr 192.168.0.0/16 --kubernetes-version $k8s_version
+        sudo kubeadm init --kubernetes-version $k8s_version
 
         # setting kubectl access
         mkdir -p $HOME/.kube
